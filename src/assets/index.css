@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer base {
+  html {
+    font-family: Inter, system-ui, sans-serif;
+  }
+}
 :host {
     --chatbot-container-bg-image: none;
     --chatbot-container-bg-color: transparent;
-    --chatbot-container-font-family: 'Courier New';
+    --chatbot-container-font-family: 'Inter';
   
     --chatbot-button-bg-color: #0042da;
     --chatbot-button-color: #ffffff;
@@ -152,7 +156,7 @@
   .chatbot-container {
     background-image: var(--chatbot-container-bg-image);
     background-color: var(--chatbot-container-bg-color);
-    font-family: 'Courier New', -apple-system,
+    font-family: 'Inter', -apple-system,
       BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
       'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   }
@@ -405,5 +409,5 @@ input {
     background-color: transparent;
     border: none;
     padding: 10px 10px;
-    font-family: 'Courier New', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
