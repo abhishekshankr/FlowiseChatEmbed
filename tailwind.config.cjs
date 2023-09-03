@@ -31,6 +31,8 @@ module.exports = {
     theme: {
         ...rem2px(defaultTheme),
         extend: {
+            fontFamily: {
+            'sans': ['Inter', 'sans-serif']},
             keyframes: {
                 'fade-in': {
                     '0%': {
