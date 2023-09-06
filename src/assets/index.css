@@ -5,7 +5,7 @@
 :host {
     --chatbot-container-bg-image: none;
     --chatbot-container-bg-color: transparent;
-    --chatbot-container-font-family: 'sans-serif';
+    --chatbot-container-font-family: Arial;
   
     --chatbot-button-bg-color: #0042da;
     --chatbot-button-color: #ffffff;
@@ -151,7 +151,7 @@
   .chatbot-container {
     background-image: var(--chatbot-container-bg-image);
     background-color: var(--chatbot-container-bg-color);
-    font-family: 'Inter';
+    font-family: Inter, sans-serif;
   }
   
   .chatbot-button {
@@ -402,5 +402,5 @@ input {
     background-color: transparent;
     border: none;
     padding: 10px 10px;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, serif;
 }
