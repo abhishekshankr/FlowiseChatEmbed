@@ -5,7 +5,7 @@
 :host {
     --chatbot-container-bg-image: none;
     --chatbot-container-bg-color: transparent;
-    --chatbot-container-font-family: Arial;
+    --chatbot-container-font-family: Inter;
   
     --chatbot-button-bg-color: #0042da;
     --chatbot-button-color: #ffffff;

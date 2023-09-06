@@ -391,7 +391,7 @@ export const Bot = (props: BotProps & { class?: string }) => {
                         onSubmit={handleSubmit}
                     />
                 </div>
-            </div>yarn bu
+            </div>
         </>
     )
 }
