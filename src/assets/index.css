@@ -56,9 +56,9 @@
   }
 
   pre {
-    padding: 0px;
+    padding: 5px;
     font-size: 13px;
-    margin: 0px;
+    margin: 5px;
     width: auto;
     overflow: auto;
     white-space: pre-wrap;       /* css-3 */
