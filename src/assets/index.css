@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 :host {
-    --chatbot-container-bg-image: none;
+    --chatbot-container-bg-image: radial-gradient(at 38% 4%, hsla(204, 86%, 68%, 1) 0, hsla(204, 86%, 68%, 0) 50%),
+    radial-gradient(at 61% 83%, hsla(337, 85%, 62%, 1) 0, hsla(337, 85%, 62%, 0) 50%),
+    radial-gradient(at 28% 66%, hsla(266, 90%, 64%, 1) 0, hsla(266, 90%, 64%, 0) 50%),
+    radial-gradient(at 62% 61%, hsla(1, 88%, 52%, 1) 0, hsla(1, 88%, 52%, 0) 50%),
+    radial-gradient(at 11% 95%, hsla(17, 85%, 54%, 1) 0, hsla(17, 85%, 54%, 0) 50%),
+    radial-gradient(at 53% 34%, hsla(244, 95%, 64%, 1) 0, hsla(244, 95%, 64%, 0) 50%),
+    radial-gradient(at 36% 58%, hsla(263, 89%, 56%, 1) 0, hsla(263, 89%, 56%, 0) 50%);
     --chatbot-container-bg-color: transparent;
     --chatbot-container-font-family: Inter;
   
@@ -423,7 +429,7 @@ input {
 }
 
 .usermessage, .usermessagewaiting {
-  border-top-left-radius: 10px;
+  border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
