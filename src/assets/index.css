@@ -56,7 +56,7 @@
   }
 
   pre {
-    padding: 5px;
+    padding: 0px;
     font-size: 13px;
     margin: 0px;
     width: auto;
@@ -191,7 +191,10 @@
   .chatbot-host-bubble > .bubble-typing {
     background-color: #f7f8ff;
     border: var(--chatbot-host-bubble-border);
-    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
   }
   
   .chatbot-host-bubble img,
@@ -203,7 +206,10 @@
   .chatbot-guest-bubble {
     color: var(--chatbot-guest-bubble-color);
     background-color: #3B81F6;
-    border-radius: 6px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
   }
   
   .chatbot-input {
