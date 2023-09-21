@@ -7,6 +7,10 @@ export const LoadingBubble = () => (
     <span
       class="px-4 py-4 ml-2 whitespace-pre-wrap max-w-full chatbot-host-bubble"
       data-testid="host-bubble"
+      style={{'border-top-left-radius': '32px',
+      'border-top-right-radius': '0px',
+      'border-bottom-left-radius': '32px',
+      'border-bottom-right-radius': '32px' }}
     >
       <TypingBubble />
     </span>
