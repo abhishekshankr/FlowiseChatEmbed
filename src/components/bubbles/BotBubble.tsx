@@ -40,6 +40,7 @@ export const BotBubble = (props: Props) => {
         'border-top-right-radius': '32px',
         'border-bottom-left-radius': '32px',
         'border-bottom-right-radius': '32px' }}
+        
       />
     </div>
   )

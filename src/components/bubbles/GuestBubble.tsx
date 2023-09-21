@@ -38,6 +38,7 @@ export const GuestBubble = (props: Props) => {
         'border-bottom-left-radius': '32px',
         'border-bottom-right-radius': '0px' }}
       />
+      
       <Show when={props.showAvatar}>
         <Avatar initialAvatarSrc={props.avatarSrc} />
       </Show>

@@ -11,7 +11,7 @@
     radial-gradient(at 53% 34%, hsla(244, 95%, 64%, 1) 0, hsla(244, 95%, 64%, 0) 50%),
     radial-gradient(at 36% 58%, hsla(263, 89%, 56%, 1) 0, hsla(263, 89%, 56%, 0) 50%);
     --chatbot-container-bg-color: transparent;
-    --chatbot-container-font-family: Inter;
+    --chatbot-container-font-family: Manrope;
   
     --chatbot-button-bg-color: #0042da;
     --chatbot-button-color: #ffffff;
@@ -167,7 +167,7 @@
   .chatbot-container {
     background-image: var(--chatbot-container-bg-image);
     background-color: var(--chatbot-container-bg-color);
-    font-family: Inter, sans-serif;
+    font-family: Manrope, sans-serif;
   }
   
   .chatbot-button {
@@ -424,9 +424,9 @@ input {
     background-color: transparent;
     border: none;
     padding: 10px 10px;
-    font-family: Inter, serif;
+    font-family: Manrope, serif;
 }
-
+/*
 .apimessage {
   border-top-left-radius: 0;
   border-top-right-radius: 32px;
@@ -439,4 +439,4 @@ input {
   border-top-right-radius: 32px;
   border-bottom-left-radius: 32px;
   border-bottom-right-radius: 0px;
-}
+}*/
