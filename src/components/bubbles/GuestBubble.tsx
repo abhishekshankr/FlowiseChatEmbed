@@ -34,9 +34,9 @@ export const GuestBubble = (props: Props) => {
         class="px-4 py-2 mr-2 whitespace-pre-wrap max-w-full chatbot-guest-bubble"
         data-testid="guest-bubble"
         style={{ "background-color": props.backgroundColor ?? defaultBackgroundColor, color: props.textColor ?? defaultTextColor,     'border-top-left-radius': '32px',
-        'border-top-right-radius': '0px',
+        'border-top-right-radius': '32px',
         'border-bottom-left-radius': '32px',
-        'border-bottom-right-radius': '32px' }}
+        'border-bottom-right-radius': '0px' }}
       />
       <Show when={props.showAvatar}>
         <Avatar initialAvatarSrc={props.avatarSrc} />
