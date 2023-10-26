@@ -5,7 +5,7 @@
 :host {
     --chatbot-container-bg-image: none;
     --chatbot-container-bg-color: transparent;
-    --chatbot-container-font-family: 'Manrope';
+    --chatbot-container-font-family: 'Inter';
   
     --chatbot-button-bg-color: #0042da;
     --chatbot-button-color: #ffffff;
@@ -161,7 +161,7 @@
   .chatbot-container {
     background-image: var(--chatbot-container-bg-image);
     background-color: var(--chatbot-container-bg-color);
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Inter', sans-serif;
   }
   
   .chatbot-button {
@@ -410,7 +410,7 @@ input {
     background-color: transparent;
     border: none;
     padding: 10px 10px;
-    font-family: 'Manrope', serif;
+    font-family: 'Inter', serif;
 }
 /*
 .apimessage {
