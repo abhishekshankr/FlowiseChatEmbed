@@ -5,7 +5,7 @@
 :host {
     --chatbot-container-bg-image: none;
     --chatbot-container-bg-color: transparent;
-    --chatbot-container-font-family: Inter;
+    --chatbot-container-font-family: 'Space Grotesk';
   
     --chatbot-button-bg-color: #0042da;
     --chatbot-button-color: #ffffff;
@@ -33,7 +33,7 @@
     --chatbot-header-bg-color: #ffffff;
     --chatbot-header-color: #303235;
   
-    --chatbot-border-radius: 6px;
+    --chatbot-border-radius: 8px;
   
     /* Phone input */
     --PhoneInputCountryFlag-borderColor: transparent;
@@ -59,7 +59,7 @@
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
     white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    word-wrap: break-word;       /* 'Space Grotesk'net Explorer 5.5+ */
   }
   .string { color: green; }
   .number { color: darkorange; }
@@ -161,7 +161,7 @@
   .chatbot-container {
     background-image: var(--chatbot-container-bg-image);
     background-color: var(--chatbot-container-bg-color);
-    font-family: Inter, sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
   }
   
   .chatbot-button {
@@ -410,7 +410,7 @@ input {
     background-color: transparent;
     border: none;
     padding: 10px 10px;
-    font-family: Inter, serif;
+    font-family: 'Space Grotesk', serif;
 }
 /*
 .apimessage {

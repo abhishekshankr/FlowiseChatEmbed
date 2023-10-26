@@ -51,7 +51,7 @@ export const Badge = (props: Props) => {
       "text-align": 'center',
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
-    }}>Moovi may produce inaccurate results. Execerise caution while using.  
+    }}>Moovi may produce inaccurate results. Excercise caution while using.  
       {/*<a
         ref={liteBadge}
         href={'https://flowiseai.com'}

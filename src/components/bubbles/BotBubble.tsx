@@ -37,9 +37,9 @@ export const BotBubble = (props: Props) => {
         class="px-4 py-2 ml-2 whitespace-pre-wrap max-w-full chatbot-host-bubble"
         data-testid="host-bubble"
         style={{ "background-color": props.backgroundColor ?? defaultBackgroundColor, color: props.textColor ?? defaultTextColor,'border-top-left-radius': '0',
-        'border-top-right-radius': '32px',
-        'border-bottom-left-radius': '32px',
-        'border-bottom-right-radius': '32px' }}
+        'border-top-right-radius': '16px',
+        'border-bottom-left-radius': '16px',
+        'border-bottom-right-radius': '16px' }}
         
       />
     </div>
