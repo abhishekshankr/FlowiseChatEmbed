@@ -51,8 +51,8 @@ export const Badge = (props: Props) => {
       "text-align": 'center',
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
-    }}>Powered by
-      <a
+    }}>Moovi may produce inaccurate results. Execerise caution while using.  
+      {/*<a
         ref={liteBadge}
         href={'https://flowiseai.com'}
         target="_blank"
@@ -60,9 +60,9 @@ export const Badge = (props: Props) => {
         class="lite-badge"
         id="lite-badge"
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
-      >
-        <span> Flowise</span>
-      </a>
+  >
+        <span> Moovi</span>
+      </a>*/}
     </span>
   )
 }
