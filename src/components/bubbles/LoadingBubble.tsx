@@ -8,9 +8,9 @@ export const LoadingBubble = () => (
       class="px-4 py-4 ml-2 whitespace-pre-wrap max-w-full chatbot-host-bubble"
       data-testid="host-bubble"
       style={{'border-top-left-radius': '0px',
-      'border-top-right-radius': '32px',
-      'border-bottom-left-radius': '32px',
-      'border-bottom-right-radius': '32px' }}
+      'border-top-right-radius': '16px',
+      'border-bottom-left-radius': '16px',
+      'border-bottom-right-radius': '16px' }}
     >
       <TypingBubble />
     </span>
